@@ -1,4 +1,71 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 
+p {
+	font-family: 'Gaegu', cursive;
+	font-weight: 400;
+	font-size: 17px;
+}
 
+h1 {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: .5rem;
+}
+
+h2 {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+h3 {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 400;
+	font-size: 28px;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.bg-dark {
+    background-color: transparent!important;
+}
+
+a.nav-link {
+	color: #262626!important;
+}
+
+#tea-background {
+	opacity: .7;
+}
+
+.carousel-caption.d-none.d-md-block {
+	text-align: left;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #262626;
+    text-align: center;
+}
+
+.center {
+	text-align: center;
+}
