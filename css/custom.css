@@ -3,9 +3,11 @@
 
 body {
   background-color: #F0E1E1;
+  overflow-x: hidden;
 }
 
-html, body {
+.site-wrapper {
+	position: relative;
 	overflow-x: hidden;
 }
 
