@@ -1,10 +1,16 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 
+body {
+  background-color: #F0E1E1;
+  overflow-x: hidden;
+}
+
 p {
 	font-family: 'Gaegu', cursive;
 	font-weight: 400;
 	font-size: 17px;
+	color: #262626;
 }
 
 h1 {
@@ -12,38 +18,59 @@ h1 {
 	font-weight: 700;
 	font-size: 36px;
 	margin-bottom: .5rem;
+	margin-top: 4rem;
+	color: #262626;
 }
 
 h2 {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	font-size: 18px;
+	color: #262626;
 }
 
 h3 {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 400;
 	font-size: 28px;
+	color: #262626;
 }
 
 h4 {
-
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 17px;
+	color: #262626;
+	margin-bottom: 1rem;
 }
 
 h5 {
-
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 20px;
+	color: #262626;
+	margin-bottom: .5rem;
 }
 
 h6 {
-
+	font-family: 'Gaegu', cursive;
+	font-weight: 700;
+	font-size: 18px;
+	color: #262626;
 }
 
-.bg-dark {
+.bg-light {
     background-color: transparent!important;
 }
 
 a.nav-link {
 	color: #262626!important;
+}
+
+a.nav-link:hov {
+	color: #262626!important;
+	text-decoration: underline!important;
+	text-decoration-color: #fff!important;
 }
 
 #tea-background {
@@ -57,7 +84,8 @@ a.nav-link {
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 35%!important;
+    top: 20%!important;
+    /*bottom: 35%!important;*/
     left: 5%;
     z-index: 10;
     padding-top: 20px;
@@ -65,6 +93,88 @@ a.nav-link {
     color: #262626!important;
 }
 
+@media only screen and (max-width: 1023px) {
+    .carousel-caption.d-none.d-md-block.ml-auto.mr-auto, #nav-logo {
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #nav-logo-mobile {
+        display: none!important;
+    }
+}
+
 .center {
 	text-align: center;
 }
+
+.card {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a.btn.btn-primary.btn-lg.active {
+	background: #E0C1C1;
+	border-color: #E0C1C1;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+a.btn.btn-primary.btn-lg.active:hover {
+	background: #E5CDCD;
+	border-color: #E5CDCD;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.btn-primary {
+	background: #E0C1C1;
+	border-color: #E0C1C1;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.btn-primary:hover {
+	background: #E5CDCD;
+	border-color: #E5CDCD;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+a.btn.btn-link {
+	color: #262626;
+	text-decoration: underline;
+	text-decoration-color: #262626;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+a.btn.btn-link:hover {
+	color: #4d4d4d;
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+i.fa.fa-facebook-official, i.fa.fa-instagram, i.fa.fa-twitter-square, i.fa.fa-youtube-play {
+	color: #262626;
+}
+
+
+
