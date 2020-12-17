@@ -51,19 +51,18 @@ a.nav-link {
 }
 
 .carousel-caption.d-none.d-md-block {
-	text-align: left;
+	text-align: left!important;
 }
 
 .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 35%;
+    bottom: 35%!important;
     left: 5%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #262626;
-    text-align: center;
+    color: #262626!important;
 }
 
 .center {
