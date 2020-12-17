@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 
-p {
+p, div.card-body {
 	font-family: 'Gaegu', cursive;
 	font-weight: 400;
 	font-size: 17px;
@@ -59,18 +59,43 @@ h6 {
 	color: #262626;
 }
 
+a {
+	font-family: 'Gaegu', cursive;
+	font-weight: 400;
+	font-size: 17px;
+	color: #262626;
+	text-decoration: underline;
+	text-decoration-color: #E0C1C1;
+}
+
+a:hover {
+	color: #262626;
+	text-decoration: underline;
+	text-decoration-color: #808080;
+}
+
 .bg-light {
     background-color: transparent!important;
 }
 
 a.nav-link {
 	color: #262626!important;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 5px!important;
 }
 
-a.nav-link:hov {
+a.nav-link:hover {
 	color: #262626!important;
 	text-decoration: underline!important;
 	text-decoration-color: #fff!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #F0E1E1;
 }
 
 #tea-background {
@@ -105,16 +130,26 @@ a.nav-link:hov {
     }
 }
 
+#nav-logo:hover {
+	opacity: .8;
+}
+
 .center {
 	text-align: center;
 }
 
-.card {
+
+#homepage-card-1, #homepage-card-2 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
 
-a.btn.btn-primary.btn-lg.active {
+#about, #faq-accordian {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a.btn.btn-primary.btn-lg.active, a.btn.btn-primary.btn-lg.active:visited {
 	background: #E0C1C1;
 	border-color: #E0C1C1;
 	color: #262626;
@@ -124,7 +159,7 @@ a.btn.btn-primary.btn-lg.active {
 	font-size: 18px;
 }
 
-a.btn.btn-primary.btn-lg.active:hover {
+a.btn.btn-primary.btn-lg.active:hover, a.btn.btn-primary.btn-lg.active:active, a.btn.btn-primary.btn-lg.active:focus {
 	background: #E5CDCD;
 	border-color: #E5CDCD;
 	color: #262626;
@@ -134,17 +169,7 @@ a.btn.btn-primary.btn-lg.active:hover {
 	font-size: 18px;
 }
 
-.btn-primary {
-	background: #E0C1C1;
-	border-color: #E0C1C1;
-	color: #262626;
-	border-radius: 35px;
-	font-family: 'Gaegu', monospace;
-	font-weight: 700;
-	font-size: 19px;
-}
-
-.btn-primary:hover {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
 	background: #E5CDCD;
 	border-color: #E5CDCD;
 	color: #262626;
@@ -154,7 +179,28 @@ a.btn.btn-primary.btn-lg.active:hover {
 	font-size: 19px;
 }
 
-a.btn.btn-link {
+
+.btn-primary, .btn-primary:visited {
+	background: #E0C1C1;
+	border-color: #E0C1C1;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background: #E5CDCD;
+	border-color: #E5CDCD;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+a.btn.btn-link, a.btn.btn-link:visited {
 	color: #262626;
 	text-decoration: underline;
 	text-decoration-color: #262626;
@@ -163,10 +209,17 @@ a.btn.btn-link {
 	font-size: 17px;
 }
 
-a.btn.btn-link:hover {
+a.btn.btn-link:hover, a.btn.btn-link:active, a.btn.btn-link:focus {
 	color: #4d4d4d;
 	text-decoration: underline;
 	text-decoration-color: #fff;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+button.btn.btn-link.collapsed, button.btn.btn-link {
+	color: #262626;
 	font-family: 'Gaegu', monospace;
 	font-weight: 700;
 	font-size: 17px;
@@ -176,5 +229,10 @@ i.fa.fa-facebook-official, i.fa.fa-instagram, i.fa.fa-twitter-square, i.fa.fa-yo
 	color: #262626;
 }
 
+div#headingOne.card-header, div#headingTwo.card-header, div#headingThree.card-header {
+	background-color: #E0C1C1;
+}
 
-
+#faq-card-1, #faq-card-2, #faq-card-3 {
+	border: 0px;
+}
