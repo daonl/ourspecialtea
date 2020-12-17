@@ -59,7 +59,7 @@ h6 {
 	color: #262626;
 }
 
-a {
+a#faq-link1, a#faq-link2 {
 	font-family: 'Gaegu', cursive;
 	font-weight: 400;
 	font-size: 17px;
@@ -68,7 +68,7 @@ a {
 	text-decoration-color: #E0C1C1;
 }
 
-a:hover {
+a#faq-link1:hover, a#faq-link2:hover {
 	color: #262626;
 	text-decoration: underline;
 	text-decoration-color: #808080;
