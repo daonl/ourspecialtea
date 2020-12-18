@@ -103,6 +103,12 @@ a.nav-link:hover {
     background-color: #F0E1E1;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+	color: #16181b;
+    text-decoration: none;
+    background-color: #F0E1E1;
+}
+
 a.dropdown-item {
 	font-family: 'Gaegu', cursive;
 	font-weight: 700;
