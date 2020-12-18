@@ -11,6 +11,14 @@ body {
 	overflow-x: hidden;
 }
 
+#spacer {
+	margin-top: 3rem;
+}
+
+/*.firstrow {
+	margin-bottom: 3rem;
+}*/
+
 p, div.card-body {
 	font-family: 'Gaegu', cursive;
 	font-weight: 400;
