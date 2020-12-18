@@ -22,7 +22,7 @@ h1 {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 700;
 	font-size: 36px;
-	margin-bottom: .5rem;
+	margin-bottom: 1rem;
 	margin-top: 4rem;
 	color: #262626;
 }
@@ -103,6 +103,13 @@ a.nav-link:hover {
     background-color: #F0E1E1;
 }
 
+a.dropdown-item {
+	font-family: 'Gaegu', cursive;
+	font-weight: 700;
+	font-size: 18px;
+	color: #262626;
+}
+
 #tea-background {
 	opacity: .7;
 }
@@ -174,6 +181,46 @@ a.btn.btn-primary.btn-lg.active:hover, a.btn.btn-primary.btn-lg.active:active, a
 	font-size: 18px;
 }
 
+button#button-addon3, button#button-addon3:visited {
+	background: #E0C1C1;
+	border-color: #E0C1C1;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+button#button-addon3:hover, button#button-addon3:active, button#button-addon3:focus {
+	background: #E5CDCD;
+	border-color: #E5CDCD;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+a.btn.btn-dark.rounded-pill.py-2.btn-block, a.btn.btn-dark.rounded-pill.py-2.btn-block:visited {
+	background: #E0C1C1;
+	border-color: #E0C1C1;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+a.btn.btn-dark.rounded-pill.py-2.btn-block:hover, a.btn.btn-dark.rounded-pill.py-2.btn-block:active, a.btn.btn-dark.rounded-pill.py-2.btn-block:focus {
+	background: #E5CDCD;
+	border-color: #E5CDCD;
+	color: #262626;
+	border-radius: 35px;
+	font-family: 'Gaegu', monospace;
+	font-weight: 700;
+	font-size: 18px;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
 	background: #E5CDCD;
 	border-color: #E5CDCD;
@@ -183,7 +230,6 @@ a.btn.btn-primary.btn-lg.active:hover, a.btn.btn-primary.btn-lg.active:active, a
 	font-weight: 700;
 	font-size: 19px;
 }
-
 
 .btn-primary, .btn-primary:visited {
 	background: #E0C1C1;
